@@ -1,3 +1,9 @@
+mat-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
 .loading-spinner {
   background: rgba(0, 0, 0, 0.1);
   display: flex;
@@ -8,4 +14,11 @@
 
 .mat-icon {
   display: flex;
+}
+
+.add-button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 20px;
 }
